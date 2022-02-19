@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400;600&family=Bellefair&display=swap');
+:root {
+    --Black: hsl(230, 35%, 7%);
+    --Light-purple: hsl(231, 77%, 90%);
+    --White: hsl(0, 0%, 100%);
+    /*
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bellefair', serif;
+    */
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 600px;
+    background: var(--Black);
+    color: var(--White);
+    background-image: url(/assets/home/background-home-mobile.jpg);
+}
+/* == FUENTES == */
+    .titles p:nth-child(1) {font-family: 'Barlow Condensed', sans-serif; font-weight: lighter;}
+    .titles p:nth-child(2), button {font-family: 'Bellefair', serif;}
+    .parrafo {font-family: sans-serif; font-weight: lighter;}
+/* ---- HEADER ---- */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header img {
+    width: 40px;
+    margin: 24px 24px 0 24px;
+}
+/* ---- NAV ---- */
+nav div {
+    display: none;
+    cursor: pointer;
+}
+/* ---- ARTICULO ---- */
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 327px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+.titles p:nth-child(1) {
+    font-size: 18px;
+    word-spacing: 10px;
+    margin-top: 50px;
+}
+.titles p:nth-child(2) {
+    font-size: 84px;
+    margin-top: 20PX;
+}
+.parrafo {
+    font-size: 14px;
+    line-height: 26px;
+    width: 326px;
+    margin-top: 20px;
+}
+/* ---- BOTON ---- */
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+button {
+    margin-top: 60px;
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    border-radius: 100%;
+    border: none;
+    background-color: var(--White);
+    transition: 0.2s;
+}
+button:hover {
+    box-shadow: 0 0 1px 50px rgba(190, 190, 190, 0.26);
+}
+
+/* =-=-=-=-= Queries =-=-=-=-= */
+/* ---- TABLET ---- */
+@media (min-width: 760px) {
+
+}
+
+/* ---- DESKTOP ---- */
+@media (min-width: 1430px) {
+
+}
