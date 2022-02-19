@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400;600&family=Bellefair&display=swap');
+:root {
+    --Black: hsl(230, 35%, 7%);
+    --Light-purple: hsl(231, 77%, 90%);
+    --White: hsl(0, 0%, 100%);
+    /*
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bellefair', serif;
+    */
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 600px;
+    background: var(--Black);
+    color: var(--White);
+    background-image: url(/assets/destination/background-destination-mobile.jpg);
+}
+/* == FUENTES == */
+    .barlow {font-family: 'Barlow Condensed', sans-serif;}
+    .bellefair {font-family: 'Bellefair', serif;}
+    .parrafo {font-family: sans-serif; font-weight: lighter; color: var(--Light-purple);}
+/* ---- HEADER ---- */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header img {
+    width: 40px;
+    margin: 24px 24px 0 24px;
+}
+.burguer-img {
+    width: 30px;
+}
+/* ---- NAV ---- */
+nav ul {
+    display: none;
+    cursor: pointer;
+}
+/* ---- TITLE TOP ---- */
+.title-top {
+    font-weight: lighter;
+    margin: 20px auto 30px auto;
+    width: 200px;
+    font-size: 20px;
+    word-spacing: 8px;
+}
+.title-top span {
+    color: var(--Light-purple);
+    font-weight: 550;
+}
+/* ---- PLANETAS IMAGENES ---- */
+.titan, .mars, .europa {
+    display: none;
+}
+.planet {
+    width: 200px;
+    margin: 0 0 30px 0;
+}
+.planets-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ---- BOTONES PLANETAS ---- */
+.botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.botones button {
+    margin-left: 20px;
+    padding-bottom: 8px;
+    color: var(--Light-purple);
+    border: none;
+    background: none;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.botones button:hover {
+    border-bottom: 3px solid var(--White);
+    color: var(--White);
+}
+/* ---- ARTICULO ---- */
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h3 {
+    font-size: 60px;
+    font-weight: lighter;
+}
+.parrafo {
+    width: 342px;
+    line-height: 24px;
+    padding-bottom: 26px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(188, 189, 255, 0.281);
+}
+.avg .barlow, .time .barlow {
+    color: var(--Light-purple);
+}
+.avg .bellefair, .time .bellefair {
+    font-size: 30px;
+    margin: 15px 0 30px 0;
+}
+
+
+/* =-=-=-=-= Queries =-=-=-=-= */
+/* ---- TABLET ---- */
+@media (min-width: 760px) {
+
+}
+
+/* ---- DESKTOP ---- */
+@media (min-width: 1430px) {
+
+}
