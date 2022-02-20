@@ -45,16 +45,71 @@ nav ul {
 }
 /* ---- TITLE TOP ---- */
 h2 {
-    
+    margin: 30px 0 40px 0;
+    color: var(--White);
+    font-size: 24px;
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+}
+span {
+    color: rgb(139, 134, 155);
+    margin-right: 15px;
 }
 /* ---- IMG ---- */
-
+.pictures img {
+    width: 100%;
+}
 /* ---- BUTTONS ---- */
-
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+}
+.buttons button {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.438);
+    border-radius: 20px;
+    font-family: 'Bellefair', serif;
+    font-weight: 800;
+    font-size: 16px;
+    transition: 0.2s;
+}
+.buttons button:hover {
+    background-color: white;
+    color: var(--Black);
+}
 /* ---- TEXT ---- */
+h3 {
+    font-family: 'Barlow Condensed', sans-serif; 
+    color: rgba(245, 245, 245, 0.589);
+    margin-bottom: 14px;
+}
+h4 {
+    font-family: 'Bellefair', serif;
+    font-weight: lighter; 
+    font-size: 30px;
+    margin-bottom: 20px;
 
-
-
+}
+.container-gral article section {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+.container-gral article section p {
+    font-family: sans-serif;
+    color: var(--Light-purple);
+    font-weight: lighter;
+    line-height: 24px;
+    font-size: 15px;
+    width: 298px;
+    margin: 0 auto 0 auto;
+}
 
 
 
