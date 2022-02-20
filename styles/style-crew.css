@@ -40,22 +40,39 @@ nav ul {
     cursor: pointer;
 }
 /* ---- TITLE TOP ---- */
-h2 {}
-span {}
-
+h2 {
+    margin: 30px 0 40px 0;
+    color: var(--White);
+    font-size: 24px;
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+}
+span {
+    color: rgb(139, 134, 155);
+    margin-right: 15px;
+}
+/* ---- CONTAINER GRAL ---- */
+.container-gral {
+    display: flex;
+    flex-direction: column-reverse;
+}
 /* ---- CREW DESCRIPTIONS ---- */
 .specialist, .pilot, .engineer {
     display: none;
 }
-section {
-    width: 280px;
-    height: auto;
+.images-crew {
+    width: 300px;
+    height: 220px;
     margin: 0 auto 0 auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.26);
+    display: flex;
+    justify-content: center;
 
 }
 .img-crew {
-    width: 100%;
-    margin: 0 auto 0 auto;
+    width: auto;
+    height: 100%;
 }
 
 /* ---- ARTICULO ---- */
@@ -66,24 +83,55 @@ article {
     align-items: center;
     text-align: center;
 }
+.text-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 20px;
+}
+.articles-container {
+    margin-top: 10px;
+}
+.buttons-container button {
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    margin-left: 14px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.418);
+    transition: 0.2s;
+}
+.buttons-container button:hover {
+    background-color: white;
+}
 h3 {
-    font-size: 60px;
+    color: rgba(255, 255, 255, 0.452);
+    font-family: 'Bellefair', serif;
     font-weight: lighter;
+    margin: 20px 0 10px 0;
+    font-size: 17px;  
 }
-.parrafo {
-    width: 342px;
-    line-height: 24px;
-    padding-bottom: 26px;
-    margin-bottom: 30px;
-    border-bottom: 1px solid rgba(188, 189, 255, 0.281);
+h4 {
+    font-family: 'Bellefair', serif; 
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 20px;
 }
-.avg .barlow, .time .barlow {
+.crew-description p {
+    margin: 0 auto 0 auto;
+    font-family: sans-serif;
+    font-weight: lighter;
+    width: 320px;
+    line-height: 26px;
     color: var(--Light-purple);
+    font-size: 14px;
 }
-.avg .bellefair, .time .bellefair {
-    font-size: 30px;
-    margin: 15px 0 30px 0;
-}
+
+
+
+
+
+
 
 
 /* =-=-=-=-= Queries =-=-=-=-= */
