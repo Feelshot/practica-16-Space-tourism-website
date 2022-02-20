@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400;600&family=Bellefair&display=swap');
+:root {
+    --Black: hsl(230, 35%, 7%);
+    --Light-purple: hsl(231, 77%, 90%);
+    --White: hsl(0, 0%, 100%);
+    /*
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bellefair', serif;
+    */
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 600px;
+    background: var(--Black);
+    color: var(--White);
+    background-image: url(/assets/technology/background-technology-mobile.jpg);
+}
+/* == FUENTES == */
+    .barlow {font-family: 'Barlow Condensed', sans-serif;}
+    .bellefair {font-family: 'Bellefair', serif;}
+    .parrafo {font-family: sans-serif; font-weight: lighter; color: var(--Light-purple);}
+/* ---- HEADER ---- */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header img {
+    width: 40px;
+    margin: 24px 24px 0 24px;
+}
+.burguer-img {
+    width: 30px;
+}
+/* ---- NAV ---- */
+nav ul {
+    display: none;
+    cursor: pointer;
+}
+/* ---- OCULTAR / MOSTRAR ---- */
+.spaceport, .capsule, .img-portrait {
+    display: none;
+}
+/* ---- TITLE TOP ---- */
+h2 {
+    
+}
+/* ---- IMG ---- */
+
+/* ---- BUTTONS ---- */
+
+/* ---- TEXT ---- */
+
+
+
+
+
+
+
+/* =-=-=-=-= Queries =-=-=-=-= */
+/* ---- TABLET ---- */
+@media (min-width: 760px) {
+
+}
+
+/* ---- DESKTOP ---- */
+@media (min-width: 1430px) {
+
+}
