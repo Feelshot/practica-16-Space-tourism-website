@@ -85,12 +85,85 @@ button:hover {
 }
 
 /* =-=-=-=-= Queries =-=-=-=-= */
+
+
 /* ---- TABLET ---- */
 @media (min-width: 760px) {
+    body {
+        background-image: url(/assets/home/background-home-tablet.jpg);
+    }
+    /* ---- NAV ---- */
+    nav {
+        background-color: rgba(255, 255, 255, 0.253);
+        width: 60%;
+        margin: 15px 0 0 0;
+    }
+    nav img {
+        display: none;
+    }
+    nav ul {
+    list-style: none;
+    display: flex;
+    margin: 15px 0 0 20px;
+    height: 30px;
+    }
+    nav ul li {
+        margin-left: 10px;
+        padding-bottom: 10px;
+        height: 21px;
+    }
+    nav ul li:hover {
+        border-bottom: 3px solid rgba(255, 255, 255, 0.363);
+    }
+    .nav-active {
+        border-bottom: 3px solid var(--White);
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: var(--White);
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: lighter;
+        font-size: 18px;
+    }
+    nav ul li a span {
+        font-weight: bolder;
+    }
+    /* ---- ARTICULO ---- */
+    article {
+        width: 450px;
+        height: 334px;
+        margin-top: 130px;
+    }
+    .titles p:nth-child(1) {
+        font-size: 24px;
+        word-spacing: 10px;
+        margin-top: 0;
+    }
+    .titles p:nth-child(2) {
+        font-size: 150px;
+        margin-top: 10PX;
+    }
+    .parrafo {
+        font-size: 18px;
+        line-height: 26px;
+        width: 430px;
+        height: 112px;
+        margin-top: 10px;
+    }
+/* ---- BOTON ---- */
+
+button {
+    margin-top: 120px;
+    width: 250px;
+    height: 250px;
+}
+
 
 }
 
 /* ---- DESKTOP ---- */
 @media (min-width: 1430px) {
-
+    body {
+        background-image: url(/assets/home/background-home-desktop.jpg);
+    }
 }
