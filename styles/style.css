@@ -92,11 +92,18 @@ button:hover {
     body {
         background-image: url(/assets/home/background-home-tablet.jpg);
     }
+    /* ---- HEADER ---- */
+    header img {
+        width: 48px;
+        height: 48px;
+        margin: 30px 0 0 30px;
+    }
     /* ---- NAV ---- */
     nav {
-        background-color: rgba(255, 255, 255, 0.253);
+        background-color: rgba(255, 255, 255, 0.075);
         width: 60%;
-        margin: 15px 0 0 0;
+        height: 96px;
+        margin: 0 0 0 0;
     }
     nav img {
         display: none;
@@ -104,13 +111,15 @@ button:hover {
     nav ul {
     list-style: none;
     display: flex;
-    margin: 15px 0 0 20px;
+    justify-content: space-around;
+    margin: 35px 0 0 20px;
     height: 30px;
     }
     nav ul li {
-        margin-left: 10px;
-        padding-bottom: 10px;
+        display: flex;
+        padding-bottom: 37px;
         height: 21px;
+
     }
     nav ul li:hover {
         border-bottom: 3px solid rgba(255, 255, 255, 0.363);
@@ -126,13 +135,13 @@ button:hover {
         font-size: 18px;
     }
     nav ul li a span {
-        font-weight: bolder;
+        display: none;
     }
     /* ---- ARTICULO ---- */
     article {
         width: 450px;
         height: 334px;
-        margin-top: 130px;
+        margin-top: 100px;
     }
     .titles p:nth-child(1) {
         font-size: 24px;
