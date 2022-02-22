@@ -168,7 +168,7 @@ h3 {
 /* ---- DESKTOP ---- */
 @media (min-width: 1000px) {
     body {
-        background-image: url(/assets/home/background-home-desktop.jpg);
+        background-image: url(/assets/destination/background-destination-desktop.jpg);
     }
     /* ---- HEADER ---- */
     header img {

@@ -127,13 +127,86 @@ h4 {
     font-size: 14px;
 }
 
+
 /* =-=-=-=-= Queries =-=-=-=-= */
 /* ---- TABLET ---- */
 @media (min-width: 760px) {
-
+    body {
+        background-image: url(/assets/crew/background-crew-tablet.jpg);
+    }
+    /* ---- HEADER ---- */
+    header img {
+        width: 48px;
+        height: 48px;
+        margin: 30px 0 0 30px;
+    }
+    /* ---- NAV ---- */
+    nav {
+        background-color: rgba(255, 255, 255, 0.075);
+        width: 60%;
+        height: 96px;
+        margin: 0 0 0 0;
+    }
+    nav img {
+        display: none;
+    }
+    nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 0 0 20px;
+    height: 30px;
+    }
+    nav ul li {
+        display: flex;
+        padding-bottom: 37px;
+        height: 21px;
+        transition: 0.2s;
+    }
+    nav ul li:hover {
+        border-bottom: 3px solid rgba(255, 255, 255, 0.363);
+    }
+    .nav-active {
+        border-bottom: 3px solid var(--White);
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: var(--White);
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: lighter;
+        font-size: 18px;
+    }
+    nav ul li a span {
+        display: none;
+    }
 }
 
 /* ---- DESKTOP ---- */
-@media (min-width: 1430px) {
+@media (min-width: 1000px) {
+    body {
+        background-image: url(/assets/crew/background-crew-desktop.jpg);
+    }
+    /* ---- HEADER ---- */
+    header img {
+        width: 48px;
+        height: 48px;
+        margin: 64px 24px 0 55px;
+    }
+       /* ---- NAV ---- */
+       nav {
+           margin-top: 40px;
+           background-color: rgba(255, 255, 255, 0.137);
+           backdrop-filter: blur(25px);
+       } 
+    .box-liner-nav {
+        position: relative;
+    }
+    .line-desktop-nav {
+        position: absolute;
+        left: -440px;
+        width: 473px;
+        height: 47px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.363);
+    }
 
 }
