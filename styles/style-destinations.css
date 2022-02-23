@@ -190,7 +190,6 @@ h3 {
     width: 500px;
     margin-top: 10px;
 }
-
 .distances {
     display: flex;
 }
@@ -228,5 +227,51 @@ h3 {
         height: 47px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.363);
     }
+/* ---- TITLE TOP ---- */
+.title-top {
+    font-weight: lighter;
+    margin: 100px 0 30px 166px;
+    width: 300px;
+    font-size: 26px;
+}
+/* ---- PLANETAS IMAGENES ---- */
+.planet {
+    width: 445px;
+    margin: 0 0 30px 0;
+}
+.planets-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ---- CONTAINER GRAL ---- */
+.container-gral {
+    display: flex;
+    justify-content: space-around;
+}
+/* ---- ARTICLE GRAL ---- */
+
+/* ---- BOTONES PLANETAS ---- */
+.botones {
+    justify-content: left;
+}
+/* ---- ARTICULO ---- */
+article {
+    text-align: left;
+    justify-content: left;
+    align-items: flex-start;
+}
+h3 {
+    font-size: 80px;
+}
+.parrafo {
+    width: 400px;
+}
+.time {
+    margin-left: 80px;
+}
+
+
+
 
 }
