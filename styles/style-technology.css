@@ -242,7 +242,7 @@ h4 {
     .img-portrait  {
         display: block;
     }
-    .img-landscape, .spaceport, .capsule {
+    .img-landscape, .spaceport-desk, .capsule-desk {
         display: none;
     }
     /* ---- TITLE TOP ---- */
