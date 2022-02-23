@@ -70,13 +70,11 @@ span {
     border-bottom: 1px solid rgba(255, 255, 255, 0.26);
     display: flex;
     justify-content: center;
-
 }
 .img-crew {
     width: auto;
     height: 100%;
 }
-
 /* ---- ARTICULO ---- */
 article {
     display: flex;
@@ -183,6 +181,44 @@ h4 {
     nav ul li a span {
         display: none;
     }
+    /* ---- TITLE TOP ---- */
+    h2 {
+        margin: 30px 0 20px 38.5px;
+        width: 300px;
+        text-align: left;
+    }
+    /* ---- CONTAINER GRAL ---- */
+    .container-gral {
+        display: flex;
+        flex-direction: column;
+    }
+    /* ---- CREW DESCRIPTIONS ---- */
+    .images-crew {
+        width: 457px;
+        height: 572px;
+        margin: 20px auto 0 auto;
+        border-bottom: 0 solid rgba(255, 255, 255, 0.26);
+    }
+    /* ---- ARTICULO ---- */
+    .text-container {
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .articles-container {
+        margin: 0 0 30px 0;
+    }
+    h3 {
+        margin: 20px 0 14px 0;
+        font-size: 24px;  
+    }
+    h4 {
+        font-size: 42px;
+    }
+    .crew-description p {
+        margin: 0 auto 0 auto;
+        width: 459px;
+        font-size: 16px;
+    }
 }
 
 /* ---- DESKTOP ---- */
@@ -214,5 +250,6 @@ h4 {
         height: 47px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.363);
     }
+    
 
 }
