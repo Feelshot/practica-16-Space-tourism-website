@@ -168,6 +168,36 @@ h3 {
         display: none;
     }
 }
+/* ---- TITLE TOP ---- */
+.title-top {
+    margin: 40px 0 30px 38px;
+    width: 200px;
+}
+/* ---- PLANETAS IMAGENES ---- */
+.planet {
+    width: 300px;
+    margin: 20px 0 40px 0;
+}
+/* ---- BOTONES PLANETAS ---- */
+
+/* ---- ARTICULO ---- */
+
+h3 {
+    font-size: 86px;
+    font-weight: lighter;
+}
+.parrafo {
+    width: 500px;
+    margin-top: 10px;
+}
+
+.distances {
+    display: flex;
+}
+.time {
+    margin-left: 120px;
+}
+
 
 /* ---- DESKTOP ---- */
 @media (min-width: 1100px) {
