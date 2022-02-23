@@ -17,6 +17,8 @@ body {
     background: var(--Black);
     color: var(--White);
     background-image: url(/assets/destination/background-destination-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* == FUENTES == */
     .barlow {font-family: 'Barlow Condensed', sans-serif;}
@@ -114,9 +116,11 @@ h3 {
 
 /* =-=-=-=-= Queries =-=-=-=-= */
 /* ---- TABLET ---- */
-@media (min-width: 760px) {
+@media (min-width: 600px) {
     body {
         background-image: url(/assets/destination/background-destination-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     /* ---- HEADER ---- */
     header img {
@@ -166,9 +170,11 @@ h3 {
 }
 
 /* ---- DESKTOP ---- */
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
     body {
         background-image: url(/assets/destination/background-destination-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     /* ---- HEADER ---- */
     header img {
