@@ -75,6 +75,7 @@ span {
     width: auto;
     height: 100%;
 }
+
 /* ---- ARTICULO ---- */
 article {
     display: flex;
@@ -221,6 +222,9 @@ h4 {
     }
 }
 
+
+
+
 /* ---- DESKTOP ---- */
 @media (min-width: 1100px) {
     body {
@@ -250,6 +254,66 @@ h4 {
         height: 47px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.363);
     }
-    
+    /* ---- TITLE TOP ---- */
+h2 {
+    margin: 80px 0 0 100px;
+    font-size: 30px;
+    width: 300px;
+}
+/* ---- CONTAINER GRAL ---- */
+.container-gral {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* ---- CREW DESCRIPTIONS ---- */
+.images-crew {
+    width: 568px;
+    height: 712px;
+    margin: 0;
+    border-bottom: 0 solid rgba(255, 255, 255, 0.26);
+    display: flex;
+    justify-content: center;
+}
+.img-crew {
+    width: auto;
+    height: 100%;
+}
+/* ---- ARTICULO ---- */
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.articles-container {
+    margin: 150px 0 100px 0;
+}
+h3 {
+    margin: 20px 0 10px 0;
+    font-size: 32px;  
+}
+h4 {
+    font-family: 'Bellefair', serif; 
+    font-size: 56px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+.crew-description p {
+    margin: 0;
+    text-align: left;
+    width: 444px;
+    height: 128px;
+    font-size: 17px;
+}
+
+
+
+
 
 }
